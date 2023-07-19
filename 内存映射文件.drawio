@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-07-19T13:44:07.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GmeeTVanFqc4WY5PK-CF" version="21.6.3" type="github">
+  <diagram name="第 1 页" id="NngHfUEiwdcpIKc_rdsu">
+    <mxGraphModel dx="795" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-1" value="用户空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-2" value="内核空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279.66" y="260" as="sourcePoint" />
+            <mxPoint x="279.66" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-5" value="应用程序&lt;br&gt;逻辑内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="187.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-6" value="内核缓冲区&lt;br&gt;（Page Cache）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="330" y="187.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-7" value="磁盘" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="474" y="182.25" width="70" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-8" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cZM_Q7dUeksHMrE7BeMW-5" target="cZM_Q7dUeksHMrE7BeMW-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="350" y="377.5" as="sourcePoint" />
+            <mxPoint x="450" y="277.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-14" value="映&amp;nbsp; 射" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="172.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cZM_Q7dUeksHMrE7BeMW-6" target="cZM_Q7dUeksHMrE7BeMW-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="470" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cZM_Q7dUeksHMrE7BeMW-17" value="内存映射文件原理" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
